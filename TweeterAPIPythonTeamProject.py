@@ -121,3 +121,14 @@ words_in_tweet[:2]
     # List of all words across tweets
 all_words_no_urls = list(itertools.chain(*words_in_tweet))
 
+# Create counter
+counts_no_urls2 = collections.Counter(all_words_no_urls)
+
+counts_no_urls2.most_common(1)
+
+clean_tweets_no_urls2 = pd.DataFrame(counts_no_urls2.most_common(1),
+                             columns=['Programming Languages', 'count'])
+
+clean_tweets_no_urls2.head()
+print(clean_tweets_no_urls2)
+
