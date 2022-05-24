@@ -237,3 +237,8 @@ clean_tweets_no_urls4 = pd.DataFrame(counts_no_urls4.most_common(1),
                              columns=['Programming Languages', 'count'])
 
 clean_tweets_no_urls4.head()
+
+clean_tweets_no_urls1.to_excel('csharp.xlsx')
+clean_tweets_no_urls2.to_excel('java.xlsx')
+clean_tweets_no_urls3.to_excel('javascript.xlsx')
+clean_tweets_no_urls4.to_excel('python.xlsx')
