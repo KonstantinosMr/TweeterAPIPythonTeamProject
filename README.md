@@ -12,8 +12,8 @@ Github for Visual Studio Code
 Download python 3.9 from microsoft store if using Windows 10 or 11 and reboot computer.
 Open Visual Studio Code or any other ide, in visual studio code go to terminal --> new terminal --> see bottom window says terminal and enter "pip install pandas". After installing pandas type "pip install tweepy" and last to export and view it in excel "pip install openpyxl". Reboot IDE or computer if it does not run. 
 
-
-## After downloading as a .zip file this project extract it anywhere you wish and  on visual studio code do the following:
+## Usage instructions
+ After downloading as a .zip file this project extract it anywhere you wish and  on visual studio code do the following:
     click "File"
     click under "File", "Open Folder..."
     select the folder that contains this program 
