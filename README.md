@@ -1,7 +1,7 @@
 # Twitter-api-project-
 This is a simple twitter API project that is written in python and uses the tweeypy library to collect tweets and compare their popularity per some specific programming language kewords and hashtages(#)
 
-Requirements to execute the program:
+## Requirements to execute the program:
 
 Pandas
 openpyxl
@@ -13,7 +13,7 @@ Download python 3.9 from microsoft store if using Windows 10 or 11 and reboot co
 Open Visual Studio Code or any other ide, in visual studio code go to terminal --> new terminal --> see bottom window says terminal and enter "pip install pandas". After installing pandas type "pip install tweepy" and last to export and view it in excel "pip install openpyxl". Reboot IDE or computer if it does not run. 
 
 
-After downloading as a .zip file this project extract it anywhere you wish and  on visual studio code do the following:
+## After downloading as a .zip file this project extract it anywhere you wish and  on visual studio code do the following:
     click "File"
     click under "File", "Open Folder..."
     select the folder that contains this program 
@@ -27,19 +27,19 @@ After downloading as a .zip file this project extract it anywhere you wish and  
 4. Go to each .xlsx file  and open it via Microsoft Excel or any other spreadsheet program that is compatible with this file format to see all tweets with containing each file keyword. It shows the latest 100 tweets, however each time the user runs it it will show the previous 100 so in every run 100 are added in each programming language file in excel .
 
 
-Api reference:
+## Api reference:
 
 The API was created by Twitter developers who have allowed us to use it and modify it for the purpose of this project. The version that was used is v2.1. 
 
-Authors (In alphabetical order)
+## Authors (In alphabetical order)
 
 Alexandru Horodnic
 Dionysios Karvelas 
 Konstantinos Moraitis 
 License:
 
-This project includes the Apache 2.0 license. 
+## This project includes the Apache 2.0 license. 
 
-Acknowledgements 
+## Acknowledgements 
 
 This project is free and open-source for anyone to use and modify it. It is for educational purposes. 
